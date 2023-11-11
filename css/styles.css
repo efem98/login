@@ -1,0 +1,110 @@
+body{
+	font-family: 'Poppins', sans-serif;
+	background-color:#f8f8ff;
+}
+.new-account{
+	
+	width: 100%;
+	background:url(../img/pencil.jpg);
+	color: #fff;
+	height: 650px;
+	margin: 0px !important;
+	background-size: cover;
+
+}
+.new-account h1{
+	display: none;
+}
+.new-account p{
+	display: none;
+}
+.new-account  button{
+	display: none;
+}
+.content{
+	margin-top: 200px;
+}
+form{
+	display: flex;
+	flex-direction: column;
+}
+form input{
+	width: 80%;
+	padding: 12px;
+	background-color: 	#eee8aa;
+
+	border:none;
+	border-radius: 5px;
+}
+
+.label{
+		margin-top: 15px;
+		color: blue;
+		text-transform: capitalize;
+		font-weight: bold;
+}
+
+button{
+	margin-top: 25px;
+		background-color: blue;
+		width: 84%;
+	padding: 13px;
+	border-radius: 7px;
+	cursor: pointer;
+	color: white;
+	font-size: 15px;
+	border: none;
+}
+button:hover{
+	background-color: lightblue;
+}
+.head p{
+	margin-top: 0px;
+	color: blue;
+	font-size: 15px;
+
+}
+.head h1{
+	font-size: 40px;
+	margin-bottom: 0px;
+	color: darkseablue;
+	text-transform: capitalize;
+}
+.password{
+	text-align: center;
+}
+@media(max-width:1020px){
+	/*.grid-container img{
+		display: none;
+	}*/
+	form input{
+		width: 100%;
+	}
+	button{
+		width: 100%;
+	}
+	.password{
+	font-size: 15px;
+	text-align: left;
+}
+.new-account{
+	margin-top:30px !important;
+	padding-top:50px;
+	height: 50vh;
+}
+.new-account h1{
+	display: block;
+	font-size: 25px;
+
+}
+
+.new-account p{
+	font-size: 14px;
+		display: block;
+}
+.new-account button{
+	display: block;
+	width: 55%;
+	font-size: 15px;
+}
+}

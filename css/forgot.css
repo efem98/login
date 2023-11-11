@@ -1,0 +1,22 @@
+body{
+	font-family: 'Poppins', sans-serif;
+	background-color:#f8f8ff;
+}
+
+.password{
+	margin-top: 30px;
+	margin-right: 62px;
+}
+
+
+.password a{
+	
+	text-decoration: none;
+	color: blue;
+	font-size: 15px;
+}
+@media(max-width:1020px){
+	.head h1{
+		font-size: 32px;
+	}
+}
